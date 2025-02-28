@@ -205,7 +205,6 @@ MailClientPresenterWithDecorations >> modelChanged [
 MailClientPresenterWithDecorations >> newMail [
 
 	editedEmail := Email new.
-	editedEmail beDraft.
 	reader updateLayoutForEmail: editedEmail.
 	self modelChanged
 ]
