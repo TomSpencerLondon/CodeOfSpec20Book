@@ -84,6 +84,7 @@ AlignmentExample >> newLabelTwo [
 
 { #category : 'private' }
 AlignmentExample >> newTile: alignmentBlock [
+"comment"
 
 	| tileLayout |
 	tileLayout := SpBoxLayout newTopToBottom
